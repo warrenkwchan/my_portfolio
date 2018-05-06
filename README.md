@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Purpose of this application:
 
-Things you may want to cover:
+1. I am building my portfolio that can write blog posts, showcase my work, and connect to the community.
 
-* Ruby version
+2. I make this for myself and the community so people and I can learn from each other. Also, it allows potential employers to know what I am doing.
 
-* System dependencies
+3. The features this project contains:
+   
+   Posts
+       - Create / Edit / Destroy
+       - Markdown
+       - Syntax highlighting
+       - Comments (Disqus)
+   Project
+       - Create / Edit / Destroy
+    
+   Contact
+       - Contact form
+       - Sendgrid
+   User
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Hope you enjoy and like my new personal website.
