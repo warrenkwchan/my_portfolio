@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+  	<title>Warren Chan - Software Engineer</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +11,15 @@
   </head>
 
   <body>
+  	<header id="main_navigation" class="clearfix">
+    		<a href="#" class="name">Warren Chan</a>
+    		<nav>
+    			<%= link_to "Posts", posts_path %>
+              <a href="#">Projects</a>
+             <a href="#">Contact</a>
+    		</nav>
+    	</header>
+
     <%= yield %>
   </body>
 </html>
