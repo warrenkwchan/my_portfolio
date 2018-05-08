@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'pygments.rb', '~> 0.6.0'
 gem 'redcarpet', '~> 3.2.2'
+gem 'friendly_id', '~> 5.1'
 gem 'jquery-rails'
 
 
