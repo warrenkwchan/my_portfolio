@@ -36,6 +36,7 @@ gem 'pygments.rb', '~> 0.6.0'
 gem 'redcarpet', '~> 3.2.2'
 gem 'friendly_id', '~> 5.1'
 gem 'jquery-rails'
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 
 
 group :development, :test do
