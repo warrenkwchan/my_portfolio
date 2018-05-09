@@ -16,8 +16,12 @@
     		<nav>
     			<%= link_to "Posts", posts_path %>
     			<%= link_to "Projects", projects_path %>
+          <%= link_to "Contact", new_contact_path %>
+
+          <% if user_signed_in? %>
+          <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
+          <% end %>
              
-             <a href="#">Contact</a>
     		</nav>
     	</header>
        <% if notice %>
