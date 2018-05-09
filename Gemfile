@@ -38,6 +38,9 @@ gem 'friendly_id', '~> 5.1'
 gem 'jquery-rails'
 gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 gem 'mail_form', '~> 1.5', '>= 1.5.1'
+gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'bcrypt', platforms: :ruby
+
 
 
 group :development, :test do
