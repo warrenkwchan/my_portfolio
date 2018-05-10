@@ -16,6 +16,7 @@
     		<nav>
     			<%= link_to "Posts", posts_path %>
     			<%= link_to "Projects", projects_path %>
+          <%= link_to "Resume", "/statresume.pdf" %>
           <%= link_to "Contact", new_contact_path %>
 
           <% if user_signed_in? %>
