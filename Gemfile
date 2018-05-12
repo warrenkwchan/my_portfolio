@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
- ruby '2.3.3'
+ ruby '2.4.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 
@@ -41,6 +41,8 @@ gem 'mail_form', '~> 1.5', '>= 1.5.1'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'bcrypt', platforms: :ruby
 gem 'highlight', :require => 'simplabs/highlight'
+gem "paperclip", "~> 6.0.0"
+gem 'coderay'
 
 
 

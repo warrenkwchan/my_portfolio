@@ -5,10 +5,16 @@
                 <hr>
             </header>
             <div id="content">
-            	<%= markdown @project.description %>
+            	
+               <% if @project.image.present? %>
+               <center> <%= image_tag @project.image.url(:medium) %> </center>
+                <% end %>
+                <%= markdown @project.description %>
                  
                 <div class="button_wrapper">
+                 <% if @project.link.present? %>
                 <a href="<%= @project.link %>" class="project_button" target="_blank">Visit <%= @project.title %></a>
+                <% end %>
             </div>
             </div>
 
