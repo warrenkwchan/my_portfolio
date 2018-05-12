@@ -43,8 +43,9 @@ gem 'bcrypt', platforms: :ruby
 gem 'highlight', :require => 'simplabs/highlight'
 gem "paperclip", "~> 6.0.0"
 gem 'coderay'
-gem 'aws-sdk', '~> 2.3'
+#gem 'aws-sdk', '~> 2.3'
 gem 'figaro'
+gem 'aws-sdk-s3', '~> 1.0.0.rc2'
 
 
 
