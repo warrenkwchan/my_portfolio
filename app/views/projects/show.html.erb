@@ -7,8 +7,16 @@
             <div id="content">
             	
                <% if @project.image.present? %>
-               <center> <%= image_tag @project.image.url(:medium) %> </center>
+               <center> <%= image_tag @project.image.url(:medium) %>.   
+                    <% if @project.image2.present? %>
+                        <%= image_tag @project.image2.url(:medium) %>
+                        <% end %>
+                          <% if @project.image3.present? %>
+                        <%= image_tag @project.image3.url(:medium) %> 
+                        <% end %>
+                </center>
                 <% end %>
+
                 <%= markdown @project.description %>
                  
                 <div class="button_wrapper">
