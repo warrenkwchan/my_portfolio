@@ -10,13 +10,13 @@ class ProjectsController < ApplicationController
     end
 
     def create
-    	@project=Project.new project_params
+     	@project=Project.new project_params     
 
-    	if @project.save
-    		redirect_to @project, notice: "Good Job Master! I saved your project!"
-    	else
-    		render 'new'
-    	end
+        if  @project.save
+            redirect_to @project, notice: "Good Job Master! I saved your project!"
+        else
+            render 'new' 
+        end
     end
 
     def show

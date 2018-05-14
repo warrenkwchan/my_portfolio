@@ -46,6 +46,7 @@ gem 'coderay'
 #gem 'aws-sdk', '~> 2.3'
 gem 'figaro'
 gem 'aws-sdk-s3', '~> 1.0.0.rc2'
+gem 'delayed_job_active_record'
 
 
 
