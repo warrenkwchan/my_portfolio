@@ -16,7 +16,7 @@
     		<nav>
     			<%= link_to "Posts", posts_path %>
     			<%= link_to "Projects", projects_path %>
-          <%= link_to "Resume", "/resume2.pdf" %>
+          <%= link_to "Resume", "/myresume.pdf" %>
           <%= link_to "Contact", new_contact_path %>
 
           <% if user_signed_in? %>
@@ -34,7 +34,7 @@
     <%= yield %>
 
     <footer id="main_footer">
-            <p class="copyright">&copy; 2018 Stealthmax</p>
+            <p class="copyright">&copy; 2018 warrenkwchan</p>
             <nav>
             <a href="https://twitter.com/warrenkwchan" target='_blank'><i class="fab fa-twitter-square"></i></a>
             <a href="https://www.linkedin.com/in/warren-chan-00431412b/" target='_blank'><i class="fab fa-linkedin"></i></a>
